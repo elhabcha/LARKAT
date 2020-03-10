@@ -25,5 +25,7 @@ WebUI.click(findTestObject('test nezha/Page_iad - Vente achat location maison ap
 WebUI.verifyElementText(findTestObject('Object Repository/test nezha/Page_iad - Vente achat location maison appa_3091d3/a_PRESTIGE'), 
     '')
 
+WebUI.doubleClick(findTestObject('test nezha/Page_iad - Vente achat location maison appa_3091d3/a_PRESTIGE'))
+
 WebUI.closeBrowser()
 
