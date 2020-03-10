@@ -24,5 +24,7 @@ WebUI.click(findTestObject('Object Repository/ne testing/Page_iad - Vente achat 
 
 WebUI.click(findTestObject('Object Repository/ne testing/Page_iad - Vente achat location maison appa_3091d3/a_Vendre'))
 
+WebUI.verifyElementNotClickable(findTestObject('ne testing/Page_iad - Vente achat location maison appa_3091d3/a_Vendre'))
+
 WebUI.closeBrowser()
 
