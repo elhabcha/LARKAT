@@ -14,17 +14,4 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
-
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://preprod.iadfrance.fr/')
-
-WebUI.click(findTestObject('Object Repository/ne testing/Page_iad - Vente achat location maison appa_3091d3/a_Estimer'))
-
-WebUI.click(findTestObject('Object Repository/ne testing/Page_iad - Vente achat location maison appa_3091d3/a_Vendre'))
-
-WebUI.verifyElementNotClickable(findTestObject('ne testing/Page_iad - Vente achat location maison appa_3091d3/a_Vendre'))
-
-WebUI.closeBrowser()
 
