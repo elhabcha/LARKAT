@@ -22,3 +22,5 @@ WebUI.navigateToUrl('https://preprod.iadfrance.fr/')
 
 WebUI.closeBrowser()
 
+WebUI.verifyAlertNotPresent(0)
+
