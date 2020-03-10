@@ -18,3 +18,16 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.navigateToUrl('https://preprod.iadfrance.fr/')
+
+WebUI.click(findTestObject('Object Repository/register/Page_iad - Vente achat location maison appa_3091d3/a_Lieu(x)'))
+
+WebUI.setText(findTestObject('Object Repository/register/Page_iad - Vente achat location maison appa_3091d3/input_Louer_whereToBuy'), 
+    'paris')
+
+WebUI.click(findTestObject('Object Repository/register/Page_iad - Vente achat location maison appa_3091d3/li_Paris'))
+
+WebUI.click(findTestObject('Object Repository/register/Page_iad - Vente achat location maison appa_3091d3/button_Recherche'))
+
+WebUI.closeBrowser()
+
