@@ -20,7 +20,10 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://preprod.iadfrance.fr/')
 
-WebUI.click(findTestObject('Object Repository/test nezha/Page_iad - Vente achat location maison appa_3091d3/a_PRESTIGE'))
+WebUI.click(findTestObject('test nezha/Page_iad - Vente achat location maison appa_3091d3/a_PRESTIGE'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/test nezha/Page_iad - Vente achat location maison appa_3091d3/a_PRESTIGE'), 
+    '')
 
 WebUI.closeBrowser()
 
